@@ -1,6 +1,6 @@
 <template>
 	<view class="content">
-	     <view></view>
+	     <view> 这个 新版的git</view>
 			
 		<view>
 			<text class="title">{{title}}sdasdasd</text>

@@ -17,6 +17,21 @@
 			"style": {
 				"navigationBarTitleText": "uni-app"
 			}
+		},{
+			"path": "pages/swiper/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},{
+			"path": "pages/grids/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},{
+			"path": "pages/tabbars/tabbars",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
 		}
 	
 	],

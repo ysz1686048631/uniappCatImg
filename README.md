@@ -1,14 +1,14 @@
 <!--
  * @Author: your name
  * @Date: 2021-04-30 10:33:01
- * @LastEditTime: 2021-06-02 14:30:03
+ * @LastEditTime: 2021-06-02 14:32:58
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \vscdeUniapp\uniss\README.md
 -->
-# UniCatImg (圆形图片剪切)
+# Uniapp组件封装
 ## 基于uniapp组件
-1. 图片剪切组件暂未封装
+1. 图片剪切(UniCatImg)组件暂未封装
 
 2. Popus Modal弹窗组件封装
   - 参数

@@ -32,6 +32,16 @@
 			"style": {
 				"navigationBarTitleText": "uni-app"
 			}
+		},{
+			"path": "pages/tabbar/tabbar",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		},{
+			"path": "pages/tablists/tablists",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
 		}
 	
 	],

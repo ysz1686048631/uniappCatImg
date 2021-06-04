@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2021-04-30 10:33:01
- * @LastEditTime: 2021-06-02 14:32:58
+ * @LastEditTime: 2021-06-04 10:19:37
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \vscdeUniapp\uniss\README.md
@@ -24,4 +24,8 @@
  4. 九宫格 
 
  5. 基于Scroll二次封装的顶部标签 2021/6/2
+
+ 6. 基于Swiper二次封装的Tabbar标签页 2021/6/3
+
+ 7. 基于Scroll二次封装自动加载列表  2021/6/4
   

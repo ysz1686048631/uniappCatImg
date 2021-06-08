@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2021-04-30 15:21:49
- * @LastEditTime: 2021-06-01 17:45:07
+ * @LastEditTime: 2021-06-08 17:37:53
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \vscdeUniapp\uniss\src\pages\popus\popus.vue
@@ -14,6 +14,7 @@
             type="top"
             @handleClick="handleClick"
             :cancelshow="false"
+          
             />
       </view>
 </template>
@@ -31,9 +32,11 @@ export default {
          popustemp
     },
     methods:{
+     //     展示
          onshowpop(){
                this.showpopus = true
          },
+     //    反馈 关闭
          handleClick(e){
              this.showpopus = false;
          }

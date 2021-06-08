@@ -72,6 +72,7 @@
 				   return '160';
 				  } 
 			 },
+			 // 是否展示指示点
 			 showdot:{
 				  type:Boolean,
 				  default:()=>{

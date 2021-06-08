@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2021-04-30 10:32:42
- * @LastEditTime: 2021-06-04 10:18:10
+ * @LastEditTime: 2021-06-08 17:27:12
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \vscdeUniapp\uniss\src\pages\index\index.vue
@@ -110,7 +110,16 @@ export default {
 					title:'List列表',
 					type:'uniapp组件',
 					url:'../tablists/tablists',	   
+				 },{
+					title:'Popup抽屉',
+					type:'uniapp组件',
+					url:'../popup/popup',	   
+				 },{
+					title:'PullFresh上拉刷新',
+					type:'uniapp组件',
+					url:'../pullprefresh/pullprefresh',	   
 				 }
+				 
 			]
 		    
 	   }
@@ -120,7 +129,7 @@ export default {
 			 uniTableList
 		},
   mounted(){
-	    
+	    this.$refs.unitable.onConsolidatedData(this.infos)
   },		
   methods:{
 	//   页面跳转
@@ -135,7 +144,7 @@ export default {
 	   scrollLower(e){
 				  setTimeout(()=>{
 					     this.$refs.unitable.initloadFun(false);
-					     this.$refs.unitable.onConsolidatedData(this.infos);
+					     this.$refs.unitable.onConsolidatedData([]);
 				  },1000)
 		},
 	   	// 标签页 改变的时候 触发事件  
